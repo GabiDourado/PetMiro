@@ -1,0 +1,183 @@
+:root {
+    --cor-fundo-site:#E1E1E1;
+    --verde-claro:#5EF06B;
+    --cor-opc-menu:#F0BB54;
+    --cor-menu:#3BE101;
+
+}
+html, body, nav, ul, li, a, h3 {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+header {
+    display: flex;
+    align-items: center;
+}
+body {
+    font-size: 14px;
+    background-color: #e1e1e1;
+    background-image: url("fotos/patas\ fundo.jpeg");
+}
+nav {
+    height: 6rem;
+    width: 100%;
+    background-color: var(--cor-menu);
+    display: flex;
+}
+.bg-menu {
+    background-color: var(--cor-opc-menu);
+    padding: 0.7rem;
+    border-radius: 0.5rem;    
+
+}
+.menu li {
+    display: inline-block;
+    margin: 20px 30px;
+    position: relative;
+}
+.menu li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.logo a {
+    width: 10%;
+    height: 5.3rem;
+    box-sizing: border-box;
+    display: flex;
+    margin: 0rem 1rem;
+}
+.icone {
+    padding: 0 1rem;
+    align-items: center;    
+}
+.menu {
+    margin-top: 0.6rem;
+    margin-left: 4.4rem;
+}
+.div-menu{
+    width: 70%;
+}
+.icone-todos {
+    display:flex;
+    align-items: center;
+    width: 20%;
+}
+.fa-user-o, .fa-shopping-cart, .fa-commenting-o, .fa-search{
+    color: black;
+}
+.fa-user-o {
+    margin-left: 4rem;
+}
+.logo {
+    width: 10%;
+    height: 5.3rem;
+    box-sizing: border-box;
+    display: flex;
+    margin: 0.5rem 1rem;
+}
+.demais-produtos {
+    display: flex;
+    background-color: rgba(225, 225, 225, 0.5);
+    width: 85%;
+    justify-content: center;
+    margin-left: 7rem;
+    text-align: center;
+}
+.produto1, .produto2, .produto3, .produto4,
+.produto5, .produto6,.produto7, .produto8 {
+    background-color: var(--verde-claro);
+    width: 9rem;
+    height: 12rem;
+    border-radius: 0.6rem;
+    margin: 4rem 0.6rem;
+}
+.produtos {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+.produtos-destaque {
+    background-color: var(--verde-claro);
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin-left: 14.8rem;
+    margin-top: 1rem;
+    border-radius: 0.9rem;
+}
+.produtos-destaque  img{
+    border-radius: 2.3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.demais-produtos-2 {
+    display: flex;
+    background-color: rgba(225, 225, 225, 0.5);
+    width: 85%;
+    justify-content: center;
+    margin-left: 7rem;
+    text-align: center;
+}
+.produto-1, .produto-2, .produto-3, .produto-4,
+.produto-5, .produto-6,.produto-7, .produto-8 {
+    background-color: var(--verde-claro);
+    width: 9rem;
+    height: 12rem;
+    border-radius: 0.8rem;
+    margin: 2rem 0.6rem;
+}
+.fa-user-o, .fa-shopping-cart, .fa-commenting-o, .fa-search{
+    color: black;
+}
+.produto-1 img, .produto-2 img, .produto-3 img, .produto-4 img,
+.produto-5 img, .produto-6 img,.produto-7 img, .produto-8 img,
+.produto1 img, .produto2 img, .produto3 img, .produto4 img,
+.produto5 img, .produto6 img,.produto7 img, .produto8 img {
+    width: 80%;
+    box-sizing: border-box;
+    margin: 1rem 1rem;
+    background-color:var(--cor-fundo-site);
+    border-radius: 0.5rem;
+}
+.produto7 img {
+    width: 8rem; 
+    margin-left: 0.5rem;
+}
+.produto-1 span, .produto-2 span, .produto-3 span, .produto-4 span,
+.produto-5 span, .produto-6 span,.produto-7 span, .produto-8 span,
+.produto1 span, .produto2 span, .produto3 span, .produto4 span,
+.produto5 span, .produto6 span,.produto7 span, .produto8 span {
+    background-color: var(--verde-claro);
+    box-sizing: border-box;
+}
+.slider-container li img {
+    width: 100%;
+    border: 30px solid var(--verde-claro);
+    border-radius: 15px;
+}
+.slider-nav{
+    width: 37%;
+    margin-left:23rem;
+    margin-top: 5rem;
+}
+.slider-nav-next{
+    width: 25%;
+    position: relative;
+    top: 5rem;
+    margin-left: 6rem;
+}
+.swiffy-slider .slider-container li img{
+    width: 45%;
+    margin-left:26rem;
+    margin-top: 5rem;
+}
+.produto5 img, .produto7 img, .produto-8 img, .produto-5 img{
+    margin-bottom: 0.5rem;
+}

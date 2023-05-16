@@ -1,0 +1,47 @@
+:root {
+    --cor-fundo-site:#E1E1E1;
+    --verde-claro:#5EF06B;
+    --cor-opc-menu:#F0BB54;
+    --cor-menu:#3BE101;
+    --cor-opac-verde:#3de101a9;
+    ;
+}
+html, body, nav, ul, li, a {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+body {
+    font-size: 14px;
+    background-color: #e1e1e1;
+    background-image: url("fotos/patas\ fundo.jpeg");
+    font-family: 'Playfair Display', serif;
+
+}
+.titulo{
+    font-size: 50px;
+    margin-left: 14.5rem;
+}
+.subtitulo{
+    font-size: 50px;
+    margin-left: 25.5rem;
+    margin-top: 2rem;
+}
+.logo a {
+    width: 50%;
+    height: 10rem;
+    box-sizing: border-box;
+    display: flex;
+    margin: 0rem 1rem;
+    margin-left: 34rem;
+    margin-top: 3rem;
+
+}
+.caixagrande{
+    height: 40rem;
+    width: 80%;
+    background-color:var(--cor-opac-verde) ;
+    margin-left: 9.5rem;
+    margin-top: 4.5rem;
+    border-radius: 15px;
+}

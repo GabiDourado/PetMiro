@@ -1,0 +1,68 @@
+:root{
+    --laranja:#F0AC00;
+    --fundo:#D6D6D6;
+    --letra:#B0B0B0;
+    --latra2:#5B5B5B;
+}
+body{
+    background-image: url( "fotos/patas\ fundo.jpeg" );
+    }
+input[type="password"]{
+    height: 50px;
+    width: 400px;
+    margin-left:540px;
+    border-radius: 10px;
+    background-color: var(--fundo);
+    color: var(--letra);
+    border: 2px solid var(--laranja);
+    font-size: 20px;
+}
+.header-logo img{
+    height: 200px;
+    width: 200px;
+    margin-left: 640px;
+    margin-top: 40px;
+}
+.texto{
+    height: 85px;
+    width: 400px;
+    margin-left: 540px;
+    text-align: center;
+}
+input[ type="text"]{
+    height: 50px;
+    width: 400px;
+    margin-left:540px;
+    border-radius: 10px;
+    background-color: var(--fundo);
+    color: var(--letra);
+    border: 2px solid var(--laranja);
+    font-size: 20px;
+}
+input{
+    margin-top: 30px;
+}
+button{
+    height: 50px;
+    width: 170px;
+    margin-left: 670px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: var(--laranja);
+    margin-top: 1rem;
+}
+.periodo{
+    font-size: 20px;
+    margin-left: 600px;
+    margin-top: 1rem;
+}
+.clique-aqui{
+    color: var(--laranja);
+}
+.voltar{
+    color: var(--laranja);
+    font-size: 20px;
+    margin-left: 670px;
+    font-size: 20px;
+    margin-top: 30px;
+}

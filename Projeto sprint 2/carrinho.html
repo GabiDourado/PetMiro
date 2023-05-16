@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Petshop do Miro</title>
+        <link rel="stylesheet" href="assets/carrinho.css">
+        <script src="https://use.fontawesome.com/c2cae44e06.js"></script>
+        <link rel="icon" type="image/png" href="assets/fotos/loogo - Editado.png"/>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="logo">
+                    <a href="home.html"><img src="assets/fotos/loogo - Editado.png" alt="Logo petshop do miro" ></a>
+                </div>               
+                <div class="div-menu">
+                    <ul class="menu">
+                        <li class="bg-menu">
+                            <a href="sobre.html">Sobre</a>
+                        </li>
+                        <li class="bg-menu">
+                            <a href="agendamento.html">Agendamento</a>
+                        </li>
+                        <li class="bg-menu">
+                            <a href="contato.html">Contato</a>
+                        </li>
+                    </ul>
+                </div>                
+                <div class="icone-todos">
+                    <div class="icone">
+                        <a href="login.html"><i class="fa fa-user-o  fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="icone">
+                        <a href="#"><i class="fa fa-search  fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="icone">
+                        <a href="carrinho.html"><i class="fa fa-shopping-cart  fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="icone">
+                        <a href="chat.html"><i class="fa fa-commenting-o  fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="div-maior">
+            <div class="produtos">
+                <div class="texto">
+                    <span>Carrinho de Compras</span>
+                    <span id="quantprod">Você tem 16 produtos em seu carrinho</span>
+                </div>
+                <div class="produto1">
+                    <div class="img">
+                        <img src="assets/fotos/produto1.png" alt="Casinha vermelha de transporte">
+                    </div>
+                    <div class="nome-info">
+                        <h4>Casa de transporte</h4>
+                        <span>vermelha</span>
+                    </div>
+                    <div class="select">
+                        <label for="quant"></label>
+                        <input type="number" name="" id="qtdeprod1" min="0" placeholder="1" class="produto" data-preco="59.99" value="0">
+                    </div>
+                    <div class="preco">
+                        <h4 class="valor">R$ 59,99</h4>
+                    </div>
+                </div>
+                <div class="produto2">
+                    <div class="img">
+                        <img src="assets/fotos/produto2 - Editado.png" alt="tapete higienico">
+                    </div>
+                    <div class="nome-info">
+                        <h4>Tapete higienico</h4>
+                        <span>Super secão</span>
+                    </div>
+                    <div class="select2">
+                        <label for="quanti"></label>
+                        <input type="number" name="" id="qtdeprod2" min="0" placeholder="1" class="produto" data-preco="25.40" value="0">
+                    </div>
+                    <div class="preco">
+                        <h4 class="valor">R$ 25,40</h4>
+                    </div>
+                </div>
+                <div class="produto3">
+                    <div class="img">
+                        <img src="assets/fotos/produto3 - Editado.png" alt="ração para cachorro">
+                    </div>
+                    <div class="nome-info">
+                        <h4>Ração para cachorro</h4>
+                        <span>Diversas </span>
+                    </div>
+                    <div class="select3">
+                        <label for="quantid"></label>
+                        <input type="number" name="" id="qtdeprod3" min="0" placeholder="1" class="produto" data-preco="30.25" value="0" >
+                    </div>
+                    <div class="preco">
+                        <h4 class="valor">R$ 30,25</h4>
+                    </div>
+                </div>
+                <div class="produto3">
+                    <div class="img">
+                        <img src="assets/fotos/produto4 - Editado.png" alt="antipulgas">
+                    </div>
+                    <div class="nome-info4">
+                        <h4>Antipulgas para cães</h4>
+                        <span>venda por receita e sem receita</span>
+                    </div>
+                    <div class="select4">
+                        <label for="quantidade"></label>
+                        <input type="number" name="" id="qtdeprod4" min="0" placeholder="1" class="produto" data-preco="60.55" value="0">
+                    </div>
+                    <div class="preco">
+                        <h4 class="valor">R$ 60,55</h4>
+                    </div>
+                </div>
+                <div class="produto3">
+                    <div class="img">
+                        <img src="assets/fotos/produto5 - Editado.png" alt="medicamentos">
+                    </div>
+                    <div class="nome-info4">
+                        <h4>Medicamentos para cães</h4>
+                        <span>Apenas com receita</span>
+                    </div>
+                    <div class="select5">
+                        <label for="quant"></label>
+                        <input type="number" name="" id="qtdeprod5" min="0" placeholder="1" class="produto" data-preco="80.00" value="0">
+                    </div>
+                    <div class="preco">
+                        <h4 class="valor">R$ 80,00</h4>
+                    </div>
+                </div>
+                <div class="produto2">
+                    <div class="img">
+                        <img src="assets/fotos/produto6 - Editado.png" alt="Petiscos">
+                    </div>
+                    <div class="nome-info">
+                        <h4>Petiscos</h4>
+                        <span>para cães</span>
+                    </div>
+                    <div class="select6">
+                        <label for="quanti"></label>
+                        <input type="number" name="" id="qtdeprod6" min="0" placeholder="1" class="produto" data-preco="6.99" value="0">
+                    </div>
+                    <div class="preco">
+                        <h4 class="valor">R$ 6,99</h4>
+                    </div>
+                </div>
+                <div class="produto3">
+                    <div class="img">
+                        <img src="assets/fotos/produto7 - Editado.png" alt="Catnip">
+                    </div>
+                    <div class="nome-info">
+                        <h4>Catnip</h4>
+                        <span>Seu gatinho mais animado</span>
+                    </div>
+                    <div class="select7">
+                        <label for="quantid"></label>
+                        <input type="number" name="" id="qtdeprod7" min="0" placeholder="1" class="produto" data-preco="20.00" value="0" >
+                    </div>
+                    <div class="preco">
+                        <h4 class="valor">R$ 20,00</h4>
+                    </div>
+                </div>
+                <div class="produto3">
+                    <div class="img">
+                        <img src="assets/fotos/produto8.png" alt="pelucia">
+                    </div>
+                    <div class="nome-info4">
+                        <h4>Pelúcia</h4>
+                        <span>um brinquedo para seu pet</span>
+                    </div>
+                    <div class="select8">
+                        <label for="quantidade"></label>
+                        <input type="number" name="" id="qtdeprod8" min="0" placeholder="1" class="produto" data-preco="35.40" value="0">
+                    </div>
+                    <div class="preco">
+                        <h4 class="valor">R$ 35,40</h4>
+                    </div>
+                </div> <div class="produto1">
+                    <div class="img">
+                        <img src="assets/fotos/produto9 - Editado.png" alt="Gaiola">
+                    </div>
+                    <div class="nome-info">
+                        <h4>Gaiola grande</h4>
+                        <span>Branca</span>
+                    </div>
+                    <div class="select9">
+                        <label for="quant"></label>
+                        <input type="number" name="" id="qtdeprod9" min="0" placeholder="1" class="produto" data-preco="2050.99" value="0">
+                    </div>
+                    <div class="preco">
+                        <h4 class="valor">R$ 2050,99</h4>
+                    </div>
+                </div>
+                <div class="produto2">
+                    <div class="img">
+                        <img src="assets/fotos/produto10 - Editado.png" alt="rações para gatos">
+                    </div>
+                    <div class="nome-info">
+                        <h4>Rações para gatos</h4>
+                        <span>Diversas</span>
+                    </div>
+                    <div class="select10">
+                        <label for="quanti"></label>
+                        <input type="number" name="" id="qtdeprod10" min="0" placeholder="1" class="produto" data-preco="35.50" value="0">
+                    </div>
+                    <div class="preco">
+                        <h4 class="valor">R$ 35,50</h4>
+                    </div>
+                </div>
+                <div class="produto3">
+                    <div class="img">
+                        <img src="assets/fotos/produto11 - Editado.png" alt="Antipulgas">
+                    </div>
+                    <div class="nome-info4">
+                        <h4>Antipulgas de gatos</h4>
+                        <span>venda por receita e sem receita</span>
+                    </div>
+                    <div class="select11">
+                        <label for="quantid"></label>
+                        <input type="number" name="" id="qtdeprod11" min="0" placeholder="1" class="produto" data-preco="61.40" value="0" >
+                    </div>
+                    <div class="preco">
+                        <h4 class="valor">R$ 61,40</h4>
+                    </div>
+                </div>
+                <div class="produto3">
+                    <div class="img">
+                        <img src="assets/fotos/produto12 - Editado.png" alt="areia">
+                    </div>
+                    <div class="nome-info">
+                        <h4>Areia higiênica</h4>
+                        <span>Diversas</span>
+                    </div>
+                    <div class="select12">
+                        <label for="quantidade"></label>
+                        <input type="number" name="" id="qtdeprod12" min="0" placeholder="1" class="produto" data-preco="20.40" value="0">
+                    </div>
+                    <div class="preco">
+                        <h4 class="valor">R$ 20,40</h4>
+                    </div>
+                </div>
+                <div class="produto3">
+                    <div class="img">
+                        <img src="assets/fotos/produto13 - Editado.png" alt="Medicamentos">
+                    </div>
+                    <div class="nome-info">
+                        <h4>Medicamentos para gatos</h4>
+                        <span>Apenas por receita</span>
+                    </div>
+                    <div class="select13">
+                        <label for="quantidade"></label>
+                        <input type="number" name="" id="qtdeprod13" min="0" placeholder="1" class="produto" data-preco="65.80" value="0">
+                    </div>
+                    <div class="preco">
+                        <h4 class="valor">R$ 65,80</h4>
+                    </div>
+                </div> <div class="produto1">
+                    <div class="img">
+                        <img src="assets/fotos/produto14.png" alt="Arranhador">
+                    </div>
+                    <div class="nome-info5">
+                        <h4>Arranhador</h4>
+                        <span>Para seu pet não arranhar seus móveis</span>
+                    </div>
+                    <div class="select14">
+                        <label for="quant"></label>
+                        <input type="number" name="" id="qtdeprod14" min="0" placeholder="1" class="produto" data-preco="40.25" value="0">
+                    </div>
+                    <div class="preco">
+                        <h4 class="valor">R$ 40,25</h4>
+                    </div>
+                </div>
+                <div class="produto2">
+                    <div class="img">
+                        <img src="assets/fotos/produto15 - Editado.png" alt="aquário">
+                    </div>
+                    <div class="nome-info5">
+                        <h4>Aquário</h4>
+                        <span>uma grande casa para seu peixe</span>
+                    </div>
+                    <div class="select15">
+                        <label for="quanti"></label>
+                        <input type="number" name="" id="qtdeprod15" min="0" placeholder="1" class="produto" data-preco="3999.99" value="0">
+                    </div>
+                    <div class="preco">
+                        <h4 class="valor">R$ 3999,99</h4>
+                    </div>
+                </div>
+                <div class="produto4">
+                    <div class="img">
+                        <img src="assets/fotos/produto16.png" alt="casinha de gato">
+                    </div>
+                    <div class="nome-info">
+                        <h4>Casinha de pano</h4>
+                        <span>Formato de gato</span>
+                    </div>
+                    <div class="select16">
+                        <label for="quantid"></label>
+                        <input type="number" name="" id="qtdeprod16" min="0" placeholder="1" class="produto" data-preco="65.50" value="0" >
+                    </div>
+                    <div class="preco">
+                        <h4 class="valor">R$ 65,50</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="detalhes">
+                <div class="fixo">
+                    <div class="cima">
+                        <div class="det">
+                            <h3>Detalhes do Cartão</h3>
+                        </div>
+                        <div class="foto">
+                            <img src="assets/fotos/gui mafioso.jpeg" alt="pessoa">
+                        </div>
+                    </div>
+                    <div class="info">
+                        <label for="cartao" class="labell">Número do Cartão</label>
+                        <input type="text" name="" id="cartao" class="cartao" placeholder="0000 0000 0000 0000" minlength="19" maxlength="19">
+                        <label for="nome" class="labell">Nome no Cartão</label>
+                        <input type="text" name="" id="nome" placeholder="Digite o nome que está no cartão">
+                        <div class="caixa-junta">
+                            <div class="caixa-data">
+                                <label for="data" class="label">Vencimento</label>
+                                <input type="text" name="" id="data" placeholder="MM/YYYY" maxlength="7">
+                            </div>
+                            <div class="caixa-cvv">
+                                <label for="cvv" class="label">CVV</label>
+                                <input type="password" name="" id="cvv" maxlength="3" placeholder= "&#9679 &#9679 &#9679">
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="total">
+                        <div class="sub">
+                            <span>Subtotal</span>
+                            <span id="subtot">R$</span>
+                        </div>
+                        <div class="frete">
+                            <span>Frete</span>
+                            <span id="frete">R$20,00</span>
+                        </div>
+                        <div class="tot">
+                            <span>Total</span>
+                            <span id="total">R$</span>
+                        </div>
+                    </div>
+                    <div class="check">
+                        <button>Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="assets/arquivos js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/cadastro.css">
+    <title>Petshop do Miro</title>
+    <link rel="icon" type="image/png" href="assets/fotos/loogo - Editado.png"/>
+</head>
+<body>
+    <header>
+        <div class="cabeça">
+            <ul>
+                <li><a href="home.html"><img src="assets/fotos/loogo - Editado.png" alt="Logo petshop do miro" ></a>
+            </ul> 
+        </div>
+    </header>
+   <div>
+    <H1>Crie a sua conta </H1>
+    <form action="bemvindo.html" class="tudo">
+        <div class="nome">
+            <label for="nome"></label>
+            <input type="text" name="" id="nome"  placeholder="Nome:" required>
+        </div>
+        <div class="pet">
+            <label for="pet"></label>
+            <input type="text" name="" id="pet" placeholder="Nome do seu pet:" required>
+        </div>
+        <div class="tel">
+            <label for="tel"></label>
+            <input type="tel" name="" id="name" placeholder="Telefone:" required maxlength="14">
+        </div>
+        <div class="cpf">
+            <label for="cpf"></label>
+            <input type="text" name="" id="cpf" maxlength="14"   placeholder="CPF:" required>
+        </div>
+        <div class="email">
+            <label for="email"></label>
+            <input type="email" name="" id="email"  placeholder="Email:" >
+        </div>
+        <div class="cit">
+            <label for="cit"></label>
+            <input type="text" name="" id="cit" required placeholder="Cidade:">
+        </div>
+        <div class="ntext">
+            <input type="text" name="" id="end" placeholder="Endereço:" required>
+            <label for="end"></label>
+        </div>
+        <div class="senha">
+            <label for="senha"></label>
+            <input type="password" name="" id="senha" placeholder="Senha" required>
+        </div>
+        <div class="senha-co">
+            <label for="senha-co"></label>
+            <input type="password" name="" id="senha-co" placeholder="confirma a sua senha" required>
+        </div>
+        <div class="li">
+            <input type="checkbox" name="" id="li" required>
+            <label for="li">Li e concordo com os termos de uso</label>
+        </div>
+        <input type="submit" value="Cadastrar" class="bot">
+    </form>
+</body>
+</html>
